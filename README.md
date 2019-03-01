@@ -2,14 +2,11 @@ Toaster
 =======
 
 [![Build Status](https://travis-ci.org/devxoul/Toaster.svg?branch=master)](https://travis-ci.org/devxoul/Toaster)
-![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
-[![CocoaPods](http://img.shields.io/cocoapods/v/Toaster.svg?style=flat)](http://cocoapods.org/?q=name%3AToaster%20author%3Adevxoul)
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
+[![CocoaPods](http://img.shields.io/cocoapods/v/toastr.svg?style=flat)](http://cocoapods.org/?q=name%toastr%20author%3Adevxoul)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Android-like toast with very simple interface. (formerly JLToast)
-
-Toaster is written in Swift 3.0. If you're looking for Swift 2 compatible version, see the [JLToast 1.4.2](https://github.com/devxoul/JLToast/tree/1.4.2).
-
 
 Features
 --------
@@ -34,13 +31,13 @@ Installation
 - **For iOS 8+ projects with [CocoaPods](https://cocoapods.org):**
 
     ```ruby
-    pod 'Toaster'
+    pod 'toastr'
     ```
 
 - **For iOS 8+ projects with [Carthage](https://github.com/Carthage/Carthage):**
 
     ```
-    github "devxoul/Toaster"
+    github "hypery2k/toastr"
     ```
 
 
@@ -63,7 +60,7 @@ Toast(text: "Hello, world!", delay: Delay.short, duration: Delay.long)
     toast.show()
     toast.cancel() // remove toast immediately
     ```
-    
+
 - **Removing current toast**:
 
     ```swift
@@ -71,7 +68,7 @@ Toast(text: "Hello, world!", delay: Delay.short, duration: Delay.long)
         currentToast.cancel()
     }
     ```
-    
+
 - **Removing all toasts**:
 
     ```swift
@@ -80,7 +77,7 @@ Toast(text: "Hello, world!", delay: Delay.short, duration: Delay.long)
 
 ### Appearance
 
-Since Toaster 2.0.0, you can use `UIAppearance` to set default appearance. This is an short example to set default background color to red.
+You can use `UIAppearance` to set default appearance. This is an short example to set default background color to red.
 
 ```swift
 ToastView.appearance().backgroundColor = .red
@@ -103,7 +100,7 @@ Supported appearance properties are:
 Screenshots
 -----------
 
-![Toaster Screenshot](https://raw.github.com/devxoul/Toaster/master/Screenshots/Toaster.png)
+![Toaster Screenshot](https://raw.github.com/hyper2k/toastr/master/Screenshots/Toaster.png)
 
 
 License

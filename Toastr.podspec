@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name         = "Toaster"
-  s.version      = "2.1.1"
+  s.name         = "Toastr"
+  s.version      = "1.0.0"
   s.summary      = "Toast for Swift"
-  s.homepage     = "http://github.com/devxoul/Toaster"
+  s.homepage     = "https://github.com/hypery2k/toastr"
   s.license      = { :type => 'WTPFL', :file => 'LICENSE' }
-  s.author       = { "devxoul" => "devxoul@gmail.com" }
-  s.source       = { :git => "https://github.com/devxoul/Toaster.git",
+  s.author       = { "nanhujiaju" => "nanhujiaju@gmail.com" }
+  s.source       = { :git => "https://github.com/hypery2k/toastr.git",
                      :tag => "#{s.version}" }
   s.platform     = :ios, '8.0'
   s.source_files = 'Sources/*.{swift,h}'
