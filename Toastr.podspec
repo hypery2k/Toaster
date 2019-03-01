@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Toastr"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Toast for Swift"
   s.homepage     = "https://github.com/hypery2k/toastr"
   s.license      = { :type => 'WTPFL', :file => 'LICENSE' }
