@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.summary      = "Toast for Swift"
   s.homepage     = "https://github.com/hypery2k/toastr"
   s.license      = { :type => 'WTPFL', :file => 'LICENSE' }
-  s.author       = { "nanhujiaju" => "nanhujiaju@gmail.com" }
+  s.author       = { "hypery2k" => "dev@martinreinhardt-online.de" }
   s.source       = { :git => "https://github.com/hypery2k/toastr.git",
-                     :tag => "#{s.version}" }
+                     :tag => "v#{s.version}" }
   s.platform     = :ios, '8.0'
   s.source_files = 'Sources/*.{swift,h}'
   s.frameworks   = 'UIKit', 'Foundation', 'QuartzCore'
